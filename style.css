@@ -3,7 +3,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: "Rubik", sans-serif;
+    font-family: "Rubik";
 }
 
 /* HEAD AND LOGO PART  */
@@ -25,18 +25,20 @@ body {
     /* border: 2px solid blue; */
 }
 
-.text-move-top {
+.main-part h1{
     /* border: 1px solid black; */
     width: 300px;
     color: white;
-    margin-top: -330px;
-    font-size: 23px;
+    margin-top: -300px;
+    font-size: 50px;
     padding-left: 80px;
 }
 
-.text-move-top h4 {
+.main-part h4 {
     font-size: 18px;
+    color: white;
     margin-top: -20px;
+    padding-left: 80px;
 }
 
 /* DISCOVER NEW BOOKS AND GAMES AND HANDMADE THINGS ALL TOGETHR */
@@ -87,9 +89,10 @@ body {
 }
 
 footer {
-    /* margin-top: 130px; */
+    margin-top: 130px;
     background-color: black;
     color: white;
+    width: 99vw;
 }
 
 .flex-footer {
@@ -123,15 +126,15 @@ footer {
         justify-content: space-between;
     }
     .main-part img{
-        width: 1000px;
+        width: 100%;
         height: 400px;
     }
-    .text-move-top{
+    .main-part h1{
         padding-left: 20px;
-        width: 20px;
+        width: 100vw;
         margin-top: -380px;
     }
-    .text-move-top h4{
+    .main-part h4{
         margin-top: 50px;
     }
     .flex-img{
